@@ -1,0 +1,85 @@
+
+.container {
+   width: min(94vw, 70rem);
+   margin: auto;
+}
+
+.container-w {
+   width: min(94vw, 90rem);
+   margin: auto;
+}
+
+.display-row {
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: -1vw;
+   margin-right: -1vw;
+}
+
+[class*="grid-"], .grid {
+   flex: 1;
+   max-width: 100%;
+   padding-left: 1rem;
+   padding-right: 1rem;
+}
+
+.grid-1{
+   flex: 10%;
+   max-width: 10%;
+}
+
+.grid-2{
+   flex: 16.666666%;
+   max-width: 16.666666%;
+}
+
+.grid-3 {
+   flex: 25%;
+   max-width: 25%;
+}
+
+.grid-4 {
+   flex: 33.333333%;
+   max-width: 33.333333%;
+}
+
+.grid-5 {
+   flex: 41.666666%;
+   max-width: 41.666666%;
+}
+
+.grid-6 {
+   flex: 50%;
+   max-width: 50%;
+}
+
+.grid-7 {
+   flex: 58.333333%;
+   max-width: 58.333333%;
+}
+
+.grid-8 {
+   flex: 66.666666%;
+   max-width: 66.666666%;
+}
+
+.grid-9 {
+   flex: 75%;
+   max-width: 75%;
+}
+
+.grid-10 {
+   flex: 83.333333%;
+   max-width: 83.333333%;
+}
+
+.grid-11 {
+   flex: 90%;
+   max-width: 90%;
+}
+
+.grid-12 {
+   flex: 100%;
+   max-width: 100%;
+}
+

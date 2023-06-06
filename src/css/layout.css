@@ -1,0 +1,66 @@
+@media screen and (max-width: 1024px) {
+   :root {
+      --height_top: 2.8rem;
+   }
+
+   .main_header {
+      background-color: #051628;
+   }
+   .box__menu ul li {
+      display: flex;
+      line-height: calc(var(--height_top) - .8rem);
+   }
+
+   .box {
+      min-height: var(--height_top);
+   }   
+
+   
+}
+
+@media screen and (max-width: 800px) {
+   .section_body {
+      position: relative;
+      min-height: 60vh;
+   }
+   .bg_svg {
+      display: flex;
+      position: absolute;
+      right: 0;
+      bottom: -10rem;
+      max-width: 50%;
+   }
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape){
+   .display-row {
+      row-gap: 1.2rem;
+   }
+
+   .bg_svg {
+      display: none;
+   }
+
+   .front_text {
+      padding: 0;
+      background-color: transparent;
+   }
+
+}
+
+@media screen and (max-width: 600px) {
+   
+   .section_body {
+      position: relative;
+      min-height: 100vh;
+   }
+   .front_text {
+      padding: 0;
+      background-color: transparent;
+   }
+
+   .bg_svg {
+      position: relative;
+      max-width: 100%;
+   }
+}

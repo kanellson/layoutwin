@@ -1,0 +1,102 @@
+@media screen and (max-width: 1024px) {
+   .container {
+      width: min(96vw, 70rem);
+      margin: auto;
+   }
+
+   .display-row {
+      row-gap: 1rem;
+      margin-left: -.6vw;
+      margin-right: -.6vw;
+   }
+
+   [class*="grid-"], .grid {
+      padding-left: .6rem;
+      padding-right: .6rem;
+   }
+
+   /* rules */
+   .w\:max > * {
+      flex: 70%;
+      max-width: 70%; 
+      margin: auto;
+   }
+   .w\:full > * {
+      flex: 100%;
+      max-width: 100%; 
+      margin: auto;
+   }
+   .md\:2-ms\:1-sm\:1 > * {
+      flex: 50%;
+      max-width: 50%; 
+   }
+
+   .w\:2-1 > *,
+   .md\:2-ms\:2-sm\:1 > * {
+      flex: 50%;
+      max-width: 50%; 
+   }
+   .w\:2 > *,
+   .md\:2-ms\:2-sm\:2 > * {
+      flex: 50%;
+      max-width: 50%; 
+   }
+
+   .md\:3-ms\:2-sm\:1 > * {
+      flex: 33.333333%;
+      max-width: 33.333333%; 
+   }
+}
+
+@media screen and (max-width: 800px) {
+   .display-row {
+      row-gap: 1.2rem;
+   }
+
+   .w\:max-1> * {
+      flex: 90%;
+      max-width: 90%; 
+      margin: auto;
+   }
+
+   .md\:2-ms\:1-sm\:1 > * {
+      flex: 100%;
+      max-width: 100%; 
+   }
+
+   .md\:3-ms\:2-sm\:1 > * {
+      flex: 50%;
+      max-width: 50%; 
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .container,
+   .container-w {
+      width: min(96vw, 70rem);
+      margin: auto;
+   }
+
+   .display-row {
+      row-gap: .5rem;
+      margin-left: -.2vw;
+      margin-right: -.2vw;
+   }
+
+   [class*="grid-"], .grid {
+      padding-left: .2rem;
+      padding-right: .2rem;
+   }
+   .w\:max> * {
+      flex: 95%;
+      max-width: 95%; 
+      margin: auto;
+   }
+   .w\:2-1 > *,
+   .md\:3-ms\:2-sm\:1 > *,
+   .md\:2-ms\:2-sm\:1 > * {
+      flex: 100%;
+      max-width: 100%; 
+   }
+   
+}
